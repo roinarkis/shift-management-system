@@ -4,7 +4,7 @@
 
 1. Ensure you have Node.js installed.
 2. In the terminal, run: `npm install`
-3. Then, in the terminal, run: `npm run build`
+3. Then, in the terminal, run: `npm run build`(it might take 2-3 minutes)
 4. Then, in the terminal, run: `npm run app`
 
 ## Running the Project
