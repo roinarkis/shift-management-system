@@ -1,0 +1,19 @@
+{
+  "name": "shiftmangment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"cd server && npm run cluster",
+    "client":"cd client && npm run serve",
+    "stop-server": "cd server && npm run delete",
+    "app":"concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
