@@ -8,7 +8,8 @@
     "server":"cd server && npm run cluster",
     "client":"cd client && npm run serve",
     "stop-server": "cd server && npm run delete",
-    "app":"concurrently \"npm run server\" \"npm run client\""
+    "app":"concurrently \"npm run server\" \"npm run client\"",
+    "build": "concurrently \"cd server && npm install\" \"cd client && npm install\""
   },
   "keywords": [],
   "author": "",
