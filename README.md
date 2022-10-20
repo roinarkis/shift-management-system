@@ -10,6 +10,7 @@
 ## Running the Project
 
 1. Browse to the shift mangment frontend at (http://localhost:8080) and check your shift or register.
+
 2.If you want to close the frontend and the beckend, just type control+c in the terminal and than run `npm run stop-server` 
 
 
