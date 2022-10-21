@@ -4,12 +4,13 @@
 
 1. Ensure you have Node.js installed.
 2. In the terminal, run: `npm install`
-3. Then, in the terminal, run: `npm run build`
+3. Then, in the terminal, run: `npm run build`(it might take 2-3 minutes)
 4. Then, in the terminal, run: `npm run app`
 
 ## Running the Project
 
 1. Browse to the shift mangment frontend at (http://localhost:8080) and check your shift or register.
+
 2.If you want to close the frontend and the beckend, just type control+c in the terminal and than run `npm run stop-server` 
 
 
