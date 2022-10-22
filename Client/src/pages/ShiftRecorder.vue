@@ -99,7 +99,7 @@ export default{
        async setEnterDate() {
           if(!this.isIdSubmited){
             this.errors =[];
-            this.errors.push('You must submit Id before enter/exit a shift.');
+            this.errors.push('You must verify Id before enter/exit a shift.');
           }
           else{
             var td=new Date().toISOString().split('T')[0];
